@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+}
+
+.pin {
+    display: none;
+}
+
+.w-100 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    border-bottom: #353535 solid 2px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: white;
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-style: normal;
+}
+
+.nav-manage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.searchicon,
+.personicon,
+.menu {
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 36px !important;
+}
+
+
+.div1 {
+    width: 100%;
+}
+
+.backimg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.backimg img {
+    /* width: 120%; */
+    height: auto;
+    margin-top: 92px;
+}
+
+.txt {
+    width: 100%;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 432px;
+    text-align: center;
+    letter-spacing: 0px;
+    /* font-style: normal; */
+    /* font-weight: bold; */
+    background-color: transparent;
+}
+
+.topside {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0px;
+    background-color: transparent;
+}
+
+.topside ul {
+    width: 33%;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.topside li {
+    background: transparent;
+    border: 1px solid;
+    padding: 4px 15px 0px;
+    border-radius: 10px;
+}
+
+.datee {
+    width: 14%;
+    font-size: 22px;
+
+}
+
+.midline {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* color: white; */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0px;
+    background-color: transparent;
+}
+
+.midline ul {
+    width: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.midline li {
+    background: transparent;
+}
+
+.whitebox {
+    width: 100%;
+}
+
+.linee {
+    width: 7%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7px;
+    background: transparent;
+}
+
+.linee .box1 {
+    width: 18%;
+    height: 100px;
+    background: #ffffff;
+}
+
+.yearstext {
+    position: absolute;
+    /* width: 20%; */
+    top: 63%;
+    left: 96%;
+    transform: translate(-50%, -50%);
+    font-family: "Bebas Neue", sans-serif;
+    /* font-weight: 400; */
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0px;
+    background-color: transparent;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.deadpoolimg {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: transparent;
+}
+
+.deadpoolimg img {
+    width: 80%;
+    background: transparent;
+}
+
+.deadpooltitle {
+    width: 100%;
+    margin: -127px 0 0 0;
+    position: absolute;
+    background: transparent;
+}
+
+.dtitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: transparent;
+    margin: 0 100px;
+}
+
+.leftside {
+    width: 28%;
+    background: transparent;
+}
+
+.leftside h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+    /* font-size: 64px; */
+    background: transparent;
+    /* margin-bottom: 10px; */
+}
+
+.boximg {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.leftside p {
+    font-size: 13px;
+    background: transparent;
+    letter-spacing: 2px
+}
+
+.trailerbtn {
+    padding: 10px 22px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.rightside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.rightside h1 {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+.rightside img {
+    margin-left: -19px;
+}
+
+.maqer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+}
+
+.eyeimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.eyeimg img {
+    width: clamp(30px, 5vw, 60px);
+    margin: 0 6px;
+}
+
+/* seamless infinite scroll */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.eyeimg:hover {
+    animation-play-state: paused;
+    animation: scroll 50s linear infinite;
+}
+
+/* responvie  */
+
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .txt {
+        font-size: 415px;
+        top: 69%;
+    }
+
+    .datee {
+        width: 20%;
+    }
+
+    .topside {
+        font-size: 22px;
+    }
+
+    .midline {
+        font-size: 27px;
+        top: 33%;
+    }
+
+    .yearstext {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1350px) and (min-width: 1288px) {
+    .txt {
+        font-size: 390px;
+        top: 66%;
+    }
+}
+
+@media (max-width: 1288px) and (min-width: 1200px) {
+    .txt {
+        font-size: 350px;
+        top: 61%;
+    }
+
+    .midline {
+        font-size: 27px;
+        top: 30%;
+    }
+}
+
+/* @media (width: 1200px) {
+    .txt {
+        font-size: 350px;
+    }
+
+} */
+
+@media (max-width: 1200px) and (min-width: 1024px) {
+    .txt {
+        font-size: 349px;
+        top: 60%;
+    }
+
+    .datee {
+        width: 25%;
+        font-size: 18px;
+    }
+
+    .topside {
+        font-size: 18px;
+    }
+
+    .midline {
+        font-size: 27px;
+    }
+
+    .yearstext {
+        font-size: 24px;
+    }
+
+    .leftside {
+        width: 31%;
+    }
+
+    .dtitle {
+        margin-top: 10px;
+    }
+
+    .marquee {
+        margin: 19px 0 0 0;
+    }
+}
+
+@media (max-width: 1140px) and (min-width: 1102px) {
+    .txt {
+        font-size: 320px;
+        top: 58%;
+    }
+
+    .marquee {
+        margin: 25px 0 0 0;
+    }
+}
+
+@media (max-width: 1102px) and (min-width: 1024px) {
+    .txt {
+        font-size: 311px;
+        top: 57%;
+    }
+
+    .dtitle {
+        margin-top: 42px;
+    }
+
+    .leftside {
+        width: 35%;
+    }
+
+    .marquee {
+        margin: 50px 0 0 0;
+    }
+}
+
+
+
+@media (max-width: 1024px) and (min-width: 800px) {
+    .txt {
+        font-size: 275px;
+        top: 55%;
+    }
+
+    .datee {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .eyeimg {
+        margin: 46px 0 0 0;
+    }
+
+    .eyeimg:hover {
+        margin: 28px 0 0 0;
+    }
+
+    .topside {
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .dtitle {
+        margin: 35px 40px;
+    }
+
+    .leftside {
+        width: 38%;
+    }
+
+    .leftside p {
+        font-size: 12px;
+    }
+
+
+    .topside ul {
+        gap: 12px;
+    }
+
+    .midline {
+        font-size: 22px;
+    }
+
+    .yearstext {
+        font-size: 22px;
+    }
+
+    .dtitle {
+        margin-top: 48px;
+    }
+
+    .deadpoolimg img {
+        width: 86%;
+    }
+}
+
+@media (max-width: 899px) and (min-width: 768px) {
+
+    .deadpoolimg img {
+        width: 96%;
+        top: -45px;
+        content: ' ';
+        position: relative;
+    }
+
+    .txt {
+        font-size: 249px;
+        top: 52%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .topside ul {
+        gap: 5px;
+    }
+
+    .eyeimg {
+        margin: 50px 0 0 0;
+    }
+
+    .eyeimg:hover {
+        margin: 50px 0 0 0;
+    }
+
+    .dtitle {
+        margin-top: 70px;
+    }
+
+    .yearstext {
+        top: 328px;
+    }
+}
+
+@media (max-width: 840px) and (min-width: 768px) {
+    .txt {
+        font-size: 244px;
+        top: 52%;
+    }
+
+    .datee {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .topside ul {
+        gap: 3px;
+    }
+
+    .eyeimg {
+        margin: 85px 0 0 0;
+    }
+
+    .eyeimg:hover {
+        margin: 85px 0 0 0;
+    }
+
+    .topside {
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .dtitle {
+        margin: 71px 40px;
+    }
+
+    .leftside {
+        width: 38%;
+    }
+
+    .leftside p {
+        font-size: 12px;
+    }
+
+    .midline {
+        font-size: 22px;
+    }
+
+    .yearstext {
+        font-size: 22px;
+    }
+
+    .topside ul {
+        gap: 3px;
+        width: 42%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .w-100,
+    .div1,
+    .deadpoolimg,
+    .txt,
+    .topside,
+    .midline,
+    .yearstext,
+    .dtitle,
+    .leftside,
+    .rightside,
+    .marquee,
+    .eyeimg {
+        display: none;
+    }
+
+    .pin {
+        display: flex;
+        padding: 10px 15px;
+        font-size: 21px;
+        font-weight: 900;
+        justify-content: center;
+        margin: 60px 0;
+    }
+}
