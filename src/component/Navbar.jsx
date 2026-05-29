@@ -26,11 +26,11 @@ const Navbar = () => {
           {/* <h1>My Application logo</h1> */}
           <img src={logo} alt="" width={100} />
           <ul className="nav-links">
-            <li><a href="">HOME</a></li>
-            <li><a href="">TOP CASTS</a></li>
-            <li><a href="">PRODUCT</a></li>
-            <li><a href="">BOX OFFICE</a></li>
-            <li><a href="">IMAX 6</a></li>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/top-casts">TOP CASTS</a></li>
+            <li><a href="/product">PRODUCT</a></li>
+            <li><a href="/box-office">BOX OFFICE</a></li>
+            <li><a href="/imax-6">IMAX 6</a></li>
           </ul>
           <ul className="nav-manage">
             <li><SearchIcon className='searchicon' /> </li>
