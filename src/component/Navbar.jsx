@@ -12,6 +12,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
 
+  useEffect(() => {
+    // browser-only code
+  }, []);
+
   const eye = [eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg, eyeimg];
 
   return (
