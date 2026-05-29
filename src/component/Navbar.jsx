@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Navbar.css'
 import banner from '../component/img/background-red.png'
 import logo from '../component/img/logo.png'
